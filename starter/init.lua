@@ -28,6 +28,9 @@
 --
 --
 
+print("Welcome to Lua Sandbox.")
+
+print("Use this document to look up basic concepts and information on Lua")
 
 -- 1. Variables and flow control
 

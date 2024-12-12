@@ -1,0 +1,30 @@
+Lua is a scripted language and it does not have an entry point, instead it is
+embedded into the application.
+
+
+
+To execute a Lua program, simple enter:
+lua program.lua
+
+where program.lua is the lua program you want to execute
+
+Additionally, you can execute a lua file inside of nvim by simply entering
+:luafile %
+
+
+
+
+STRING CONCATENATION
+
+Use the .. operator to concanetate strings
+ex: print("Hello" .. "World")
+
+
+GET USER INPUT
+
+Use the io.read()
+ex: local input = io.read()
+
+retrieves user input and stores it in the local variable input
+
+
